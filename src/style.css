@@ -1,11 +1,11 @@
-.form-field{
+.form-field {
   display: block;
   padding: 5px;
 }
-.fieldset{
+
+.fieldset {
   border: 1px solid black;
   display: inline-block;
   margin: 10px;
-  width: calc(100% - 20px - 8*2px);
+  width: calc(100% - 20px - 8 * 2px);
 }
-
