@@ -1,9 +1,21 @@
-.form-field {
-  display: block;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.fieldset {
+  margin: 20px 0;
+  padding-bottom: 0;
 }
 
-.fieldset {
-  margin: 10px;
+.fieldset:first-child {
+  margin-top: 0;
+}
+
+.form-field {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-field:nth-child(2) {
+  margin-top: 0;
+}
+
+.form-field:last-child {
+  padding-bottom: 0;
 }
