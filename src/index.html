@@ -52,9 +52,9 @@
           <label class="form-field"> 
             Full date of birth:
             <input
-              type="text"
+              type="date"
               name="dateofbirth"
-              placeholder="mm/ dd/ yyyy"
+              placeholder="дд. мм. гггг."
               required
             >
           </label> 
@@ -97,7 +97,7 @@
         <fieldset class="fieldset">
           <legend>An interesting fact about you!</legend>
           <label class="form-field">
-            Do you like cats?
+            Do you love cats?
             <input
               id="radio-1"
               type="radio"
@@ -130,7 +130,7 @@
           </label>
 
           <label class="form-field">
-            What is your favorite brand of car?
+            What are your favorite brand of cars?
             <select
               name="carbrand"
               class="select"
@@ -143,12 +143,13 @@
           </label>
 
           <label class="form-field">
-            How do you rate your work?
+            How do you rate our work?
             <input
               type="range"
               name="mywork"
               min="0"
               max="5"
+              value="0"
             >
           </label>
         </fieldset>
@@ -169,7 +170,7 @@
           </label>
         </fieldset>
   
-        <label class="form-field">
+        <label class="button">
           <button type="submit">Submit</button>
         </label>
       </form>

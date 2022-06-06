@@ -1,5 +1,5 @@
 .fieldset {
-  margin: 20px 0;
+  margin-top: 20px;
   padding-bottom: 0;
 }
 
@@ -9,11 +9,12 @@
 
 .form-field {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
-.form-field:nth-child(2) {
-  margin-top: 0;
+.button {
+  display: block;
+  margin-top: 20px;
 }
 
 .form-field:last-child {
